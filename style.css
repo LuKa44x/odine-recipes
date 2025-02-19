@@ -3,10 +3,15 @@ h1 {
     text-align: center;
     color:rgb(0, 0, 0);
     font-size: 34px;
+    display: block;
+    background-color: rgb(196, 196, 196);
+    
+    margin:auto;
 }
 
 .description{
-    
+    background-color: rgb(165, 192, 192);
+
 }
 
 .ingredients{
@@ -46,5 +51,21 @@ h1 {
     
 }
 
+img{
+    margin: auto;
+    display: block;
+    border: 15px rgb(75, 75, 75) solid;
+}
 
+body{
+    background-color: rgb(126, 126, 126);
+}
 
+.banner{
+    background-color: rgb(196, 196, 196);
+    padding: 25px;
+    
+    border: 5px solid black;
+    
+    
+}
