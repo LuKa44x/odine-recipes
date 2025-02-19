@@ -5,22 +5,29 @@ h1 {
     font-size: 34px;
     display: block;
     background-color: rgb(196, 196, 196);
-    
-    margin:auto;
+    border-bottom:5px solid black;
+    padding: 10px;
+    margin:0px;
 }
 
 .description{
-    background-color: rgb(165, 192, 192);
-
+    background-color: rgb(196, 196, 196);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    border:1px solid black;
 }
 
 .ingredients{
     font-size: 16px;
     font-family: sans-serif;
+    font-weight: 500;
     color: rgb(0, 0, 0);
     font-style: italic;
-    background-color: tan;
+    background-color: rgb(196, 196, 196);
     display: inline-block;
+    border:1px solid black;
 }
 
 .steps{
@@ -29,7 +36,9 @@ h1 {
     font-weight: 500;
     color: rgb(0, 0, 0);
     font-style: italic;
-    background-color: rgb(249, 250, 171);
+    background-color: rgb(196, 196, 196);
+    display: inline-block;
+    border:1px solid black;
 }
 
 .link{
@@ -38,6 +47,7 @@ h1 {
     font-weight: bold;
     color: rgb(98, 7, 139);
     font-style: normal;
+    background-color: rgb(196, 196, 196);
 }
 
 .home{
@@ -45,7 +55,7 @@ h1 {
     background-color: silver;
     margin-left: auto;
     width: 60px;
-    
+    display: block;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
     
@@ -54,18 +64,17 @@ h1 {
 img{
     margin: auto;
     display: block;
-    border: 15px rgb(75, 75, 75) solid;
+    border: 20px rgb(75, 75, 75) solid;
+    border-left: 40px solid black;
+    border-right: 40px solid black;
 }
 
 body{
     background-color: rgb(126, 126, 126);
+    margin-bottom:0px;
 }
 
 .banner{
     background-color: rgb(196, 196, 196);
-    padding: 25px;
-    
     border: 5px solid black;
-    
-    
 }
