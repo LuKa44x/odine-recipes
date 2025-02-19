@@ -5,7 +5,20 @@ h1 {
     font-size: 34px;
 }
 
-ol{
+.description{
+    
+}
+
+.ingredients{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: tan;
+    display: inline-block;
+}
+
+.steps{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 500;
@@ -25,15 +38,13 @@ ol{
 .home{
     text-align: right;
     background-color: silver;
+    margin-left: auto;
+    width: 60px;
+    
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    
 }
 
 
-
-.ingredients{
-    font-size: 16px;
-    font-family: sans-serif;
-    color: rgb(0, 0, 0);
-    font-style: italic;
-    background-color: tan;
-}
 
